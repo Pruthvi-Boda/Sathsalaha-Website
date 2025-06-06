@@ -1,4 +1,4 @@
-// Add simple scroll-triggered animations
+// Scroll-triggered animations and utilities
 function revealOnScroll() {
     const fadeIns = document.querySelectorAll('.fade-in-up');
     const triggerBottom = window.innerHeight * 0.9;
@@ -12,3 +12,17 @@ function revealOnScroll() {
 
 document.addEventListener('scroll', revealOnScroll);
 document.addEventListener('DOMContentLoaded', revealOnScroll);
+
+document.addEventListener('scroll', () => {
+    const btn = document.getElementById('scroll-top');
+    if (!btn) return;
+    if (window.scrollY > 300) {
+        btn.classList.add('show-scroll');
+    } else {
+        btn.classList.remove('show-scroll');
+    }
+});
+
+document.getElementById('scroll-top')?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});

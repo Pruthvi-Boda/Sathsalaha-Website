@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sathsalaha Private Limited</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xX2uJ+Z2E1VlzDq+W8sELpAo0P5NdQ4KJIp4jOSAmhpX6wX+Z1GDZCBoBPXaG9q4CPGK/cPvX9nuSUXGKmz9ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <h1>Sathsalaha</h1>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -19,22 +23,27 @@
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h2 class="fade-in">Operational Excellence Consultancy</h2>
-            <p class="fade-in">Driving sustainable growth through process optimization and strategic planning.</p>
+        <div class="overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h2>Operational Excellence Consultancy</h2>
+            <p>Driving sustainable growth through process optimization and strategic planning.</p>
+            <a href="contact.html" class="btn">Work With Us</a>
         </div>
     </section>
 
-    <section class="features">
+    <section class="features container">
         <div class="feature fade-in-up">
+            <i class="fas fa-cogs fa-3x"></i>
             <h3>Process Improvement</h3>
             <p>Streamline operations to maximize efficiency and minimize costs.</p>
         </div>
         <div class="feature fade-in-up">
+            <i class="fas fa-chart-line fa-3x"></i>
             <h3>Strategic Planning</h3>
             <p>Develop strategies that align with business goals and drive success.</p>
         </div>
         <div class="feature fade-in-up">
+            <i class="fas fa-chart-pie fa-3x"></i>
             <h3>Performance Analytics</h3>
             <p>Leverage data to gain insights and make informed decisions.</p>
         </div>
@@ -43,6 +52,8 @@
     <footer>
         <p>&copy; 2024 Sathsalaha Private Limited</p>
     </footer>
+
+    <button id="scroll-top" aria-label="Scroll to Top">&#9650;</button>
 
     <script src="script.js"></script>
 </body>

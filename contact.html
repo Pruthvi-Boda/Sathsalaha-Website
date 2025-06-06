@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Sathsalaha Private Limited</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xX2uJ+Z2E1VlzDq+W8sELpAo0P5NdQ4KJIp4jOSAmhpX6wX+Z1GDZCBoBPXaG9q4CPGK/cPvX9nuSUXGKmz9ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <h1>Sathsalaha</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,16 +22,30 @@
         </nav>
     </header>
 
-    <section class="contact">
-        <h2 class="fade-in">Get in Touch</h2>
-        <p class="fade-in">Feel free to reach out via email or connect with us on LinkedIn.</p>
-        <p class="fade-in"><a href="mailto:sri@sathsalaha.com">sri@sathsalaha.com</a></p>
-        <p class="fade-in"><a href="https://www.linkedin.com/in/sridharchitturu" target="_blank" rel="noopener">LinkedIn</a></p>
+    <section class="page-hero">
+        <div class="overlay"></div>
+        <h2 class="fade-in-up">Get in Touch</h2>
+    </section>
+
+    <section class="contact container">
+        <p class="fade-in-up">Feel free to reach out via the form below or connect with us on social media.</p>
+        <form class="contact-form fade-in-up" action="mailto:sri@sathsalaha.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p class="fade-in-up social-links">
+            <a href="mailto:sri@sathsalaha.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/sridharchitturu" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </p>
     </section>
 
     <footer>
         <p>&copy; 2024 Sathsalaha Private Limited</p>
     </footer>
+
+    <button id="scroll-top" aria-label="Scroll to Top">&#9650;</button>
 
     <script src="script.js"></script>
 </body>

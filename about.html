@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Sathsalaha Private Limited</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xX2uJ+Z2E1VlzDq+W8sELpAo0P5NdQ4KJIp4jOSAmhpX6wX+Z1GDZCBoBPXaG9q4CPGK/cPvX9nuSUXGKmz9ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <h1>Sathsalaha</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,14 +22,20 @@
         </nav>
     </header>
 
-    <section class="about">
-        <h2 class="fade-in">About Us</h2>
-        <p class="fade-in">Sathsalaha Private Limited offers expert consulting services to help organizations achieve operational excellence. With years of industry experience, we guide businesses in optimizing processes and implementing effective strategies.</p>
+    <section class="page-hero">
+        <div class="overlay"></div>
+        <h2 class="fade-in-up">About Us</h2>
+    </section>
+
+    <section class="about container">
+        <p class="fade-in-up">Sathsalaha Private Limited offers expert consulting services to help organizations achieve operational excellence. With years of industry experience, we guide businesses in optimizing processes and implementing effective strategies.</p>
     </section>
 
     <footer>
         <p>&copy; 2024 Sathsalaha Private Limited</p>
     </footer>
+
+    <button id="scroll-top" aria-label="Scroll to Top">&#9650;</button>
 
     <script src="script.js"></script>
 </body>

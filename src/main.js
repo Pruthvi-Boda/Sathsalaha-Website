@@ -123,21 +123,21 @@ document.querySelector('#app').innerHTML = `
               <div class="contact-icon">📧</div>
               <div>
                 <h4>Email</h4>
-                <p>hello@sathsalaha.com</p>
+                <p>sri@sathsalaha.com</p>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon">📱</div>
               <div>
                 <h4>Phone</h4>
-                <p>+1 (555) 123-4567</p>
+                <p>+91 9676764433</p>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon">📍</div>
               <div>
                 <h4>Location</h4>
-                <p>New York, NY</p>
+                <p>Prestigy Sky Tech, Nanakramguda, Financial District, Floor 16 - Sky One, Hyderabad</p>
               </div>
             </div>
           </div>

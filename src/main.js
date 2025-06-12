@@ -101,20 +101,6 @@ document.querySelector('#app').innerHTML = `
               <p>At Sathsalaha, we believe that excellence is not just a goal—it's a standard we uphold in every project, every interaction, and every solution we deliver. Our team combines years of expertise with fresh perspectives to create transformative experiences.</p>
               <p>We're passionate about turning complex challenges into elegant solutions, helping our clients achieve their vision while exceeding their expectations at every step of the journey.</p>
             </div>
-            <div class="stats">
-              <div class="stat">
-                <div class="stat-number">150+</div>
-                <div class="stat-label">Projects Completed</div>
-              </div>
-              <div class="stat">
-                <div class="stat-number">98%</div>
-                <div class="stat-label">Client Satisfaction</div>
-              </div>
-              <div class="stat">
-                <div class="stat-number">5+</div>
-                <div class="stat-label">Years Experience</div>
-              </div>
-            </div>
           </div>
           <div class="about-visual">
             <div class="about-image">
